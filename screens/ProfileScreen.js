@@ -17,10 +17,10 @@ export default function ProfileScreen() {
                 style={styles.avatar}
             />
 
-            <Text style={styles.name}>Pedro Lima</Text>
-            <Text style={styles.username}>@pedrolima</Text>
+            <Text style={styles.name}>User name</Text>
+            <Text style={styles.username}>@username</Text>
 
-            <Text style={styles.email}>pedro.lima@gmail.com</Text>
+            <Text style={styles.email}>user.name@gmail.com</Text>
 
             <TouchableOpacity style={styles.button} onPress={handleEditProfile}>
                 <Text style={styles.buttonText}>Editar Perfil</Text>
