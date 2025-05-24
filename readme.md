@@ -26,7 +26,6 @@ Este aplicativo simula a interface do sistema e oferece as seguintes funcionalid
 
 - [Node.js](https://nodejs.org/) (recomendado: versão 18.x)
 - [Git](https://git-scm.com/)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - Editor de código (como o [VS Code](https://code.visualstudio.com/))
 - App **Expo Go** no celular **ou** o **Android Studio** com um emulador configurado
 
