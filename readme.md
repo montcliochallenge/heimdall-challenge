@@ -35,35 +35,42 @@ Este aplicativo simula a interface do sistema e oferece as seguintes funcionalid
 1. **Clone o repositório:**
 
 ```bash
- git clone https://github.com/30Lima/heimdall-mobile.git
+git clone https://github.com/30Lima/heimdall-mobile.git
 ```
 2. **Acesse o diretório do projeto:**
 
+```bash
 - cd heimdall-mobile
+```
 
 3. **Instale as dependências:**
 
-- npx expo install
-- npx expo install @react-navigation/native
-- npx expo install @react-navigation/native-stack
-- npx expo install @react-navigation/drawer
-- npx expo install react-native-screens react-native-safe-area-context
-- npx expo install react-native-gesture-handler react-native-reanimated
-- npx expo install @react-native-async-storage/async-storage
-- npx expo install @react-native-picker/picker
-- npx expo install @expo/vector-icons
-- npm install react-native-vector-icons
+```bash
+npx expo install
+npx expo install @react-navigation/native
+npx expo install @react-navigation/native-stack
+npx expo install @react-navigation/drawer
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler react-native-reanimated
+npx expo install @react-native-async-storage/async-storage
+npx expo install @react-native-picker/picker
+npx expo install @expo/vector-icons
+npm install react-native-vector-icons
+```
 
 4. **Execute no emulador ou celular:**
 
-
-- No Android Studio, abra o emulador (ex.: Pixel 3 API 30)
-- No celular, escaneie o QR code com o app Expo Go
-- Caso queira rodar na web, aperte W quando o metro Builder for inicializado e baixe a dependencia:
-  - npx expo install react-dom react-native-web @expo/metro-runtime
+```bash
+No Android Studio, abra o emulador (ex.: Pixel 3 API 30)
+No celular, escaneie o QR code com o app Expo Go
+Caso queira rodar na web, aperte W quando o metro Builder for inicializado e baixe a dependencia:
+npx expo install react-dom react-native-web @expo/metro-runtime
+```
 
 **OBS.: Para o desenvolvimento deste projeto, foi utilizado o Pixel 3 API 30**
 
 5. **Inicialize o projeto:**
 
+```bash
 - npx expo start
+```
