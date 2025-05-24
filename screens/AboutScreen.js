@@ -19,7 +19,7 @@ export default function SobreScreen() {
             <Text style={styles.sectionTitle}>Equipe de Desenvolvimento</Text>
             <Text style={styles.paragraph}>• Pedro Lima - Leonardo – UX/UI Designer</Text>
             <Text style={styles.paragraph}>• Pedro Lima – Mobile Developer</Text>
-            <Text style={styles.paragraph}>• Pedro Lima - Vitor Gomes– Arquiteto de Software</Text>
+            <Text style={styles.paragraph}>• Pedro Lima - Vitor Gomes – Arquiteto de Software</Text>
             <Text style={styles.paragraph}>• MontClio Tecnologia</Text>
 
             <Text style={styles.sectionTitle}>Contato</Text>
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     logo: {
         width: 120,
         height: 120,
-        marginBottom: 16,
+        marginBottom: 1,
     },
     appName: {
         fontSize: 28,
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color: '#fff',
         fontWeight: '600',
-        marginTop: 20,
+        marginTop: 5,
         marginBottom: 8,
     },
     paragraph: {
