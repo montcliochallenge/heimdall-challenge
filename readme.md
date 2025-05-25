@@ -45,6 +45,7 @@ git clone https://github.com/30Lima/heimdall-mobile.git
 3. **Instale as dependências:**
 
 ```bash
+npm install expo
 npx expo install
 npx expo install @react-navigation/native
 npx expo install @react-navigation/native-stack
